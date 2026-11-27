@@ -5,13 +5,13 @@
   "description": "AI-assisted product dupe discovery",
   "type": "module",
   "scripts": {
-  "start": "node server.js",
+start": "node server.js",
+  "dev": "node --watch server.js",
+  "test": "node --test" 
+},
+    "start": "node server.js",
   "dev": "node --watch server.js",
   "test": "node --test"
-},
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
-    "test": "node --test"
   },
   "engines": { "node": ">=20" },
   "dependencies": {
