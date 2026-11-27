@@ -9,9 +9,9 @@
   "dev": "node --watch server.js",
   "test": "node --test" 
 },
-    "start": "node server.js",
-  "dev": "node --watch server.js",
-  "test": "node --test"
+    
+  
+  
   },
   "engines": { "node": ">=20" },
   "dependencies": {
